@@ -51,7 +51,7 @@ const pairs=[
 ];
 const $=id=>document.getElementById(id);
 let deck=[],flipped=[],locked=false,attempts=0,matched=0,token=null,started=0,timer=null,active=false,finishing=false,delayTimer=null,sessionClass='';
-const config={url:'https://czroyoacjwfioaakheed.supabase.co/rest/v1/',key:'여기에_Publishable_key_입력'};
+const config={url:'https://czroyoacjwfioaakheed.supabase.co/rest/v1/',key:'sb_publishable_rvFpEyAcGOBAXaBAbdiMgg_7J5n5PyG'};
 $('apiUrl').value=config.url;$('apiKey').value=config.key;
 $('classCode').value=localStorage.getItem('science_class_code')||'';
 function notice(s,kind=''){const el=$('message');el.textContent=s;el.className='notice '+kind}
